@@ -106,26 +106,6 @@ application/build/exe.win-amd64-3.12/
 
 ---
 
-## 🔓 Reset Usage Lock (Optional)
-
-The app tracks usage in a file called `.hidden_usage_data`.
-
-To reset the limit:
-
-```bash
-del .hidden_usage_data
-```
-
-Or use this inside Python:
-
-```python
-import os
-if os.path.exists(".hidden_usage_data"):
-    os.remove(".hidden_usage_data")
-```
-
----
-
 ## 📦 Optional: Build a Single Executable File (Advanced)
 
 Install PyInstaller (alternative to cx_Freeze):
