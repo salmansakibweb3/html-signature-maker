@@ -44,7 +44,7 @@ You will also need:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/html-signature-generator.git
+git clone https://github.com/salmansakibweb3/html-signature-generator.git
 cd html-signature-generator/application
 ```
 
