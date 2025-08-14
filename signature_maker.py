@@ -87,7 +87,12 @@ def generate_html():
         <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="500" style="width: 500px;">
           <tr>
             <td valign="top" width="128" style="width: 128px; padding-right: 8px; border-right: 2px solid #312d2d;">
+              <!--[if mso]>
+              <img src="{photo_url}" alt="Photo" width="120" height="120" style="width: 120px; height: 120px; display: block;">
+              <![endif]-->
+              <!--[if !mso]><!-->
               <img src="{photo_url}" alt="Photo" width="120" height="120" style="width: 120px; height: 120px; border-radius: 50%; display: block;">
+              <!--<![endif]-->
             </td>
             <td valign="top" width="240" style="width: 240px; padding: 0 8px; border-right: 2px solid #312d2d;">
               <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="240" style="width: 240px;">
